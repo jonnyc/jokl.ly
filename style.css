@@ -1,0 +1,88 @@
+/*Flag/Jokl Section*/
+
+#container {
+	position: relative;
+}
+
+#flag {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	display: block;
+	z-index: 1;
+	cursor: hand;
+	cursor: pointer;
+}
+
+#jokl {
+	position: absolute;
+	opacity: 0;
+	width: 500px;
+	z-index: 10;
+	top: 10px;
+	left: 50%;
+	margin-left: -250px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+.active {
+}
+
+#click_here {
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+/*dadboner section*/
+
+#dadboner {
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid black;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: 5px;
+	padding: 5px;
+	z-index: 100;
+}
+
+#db-pic {
+	display: inline-block;
+	cursor: hand;
+	cursor: pointer;
+}
+
+#tweet-nav {
+	display: inline-block;
+	margin: 0px 5px 5px 5px;
+}
+
+.nav {
+	display: block;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+#tweets {
+	position: absolute;
+	padding-right: 225px;
+}
+
+#time_stamp {
+	min-width: 125px;
+	position: absolute;
+	right: 0px;
+	padding-right: 5px;
+}
+
